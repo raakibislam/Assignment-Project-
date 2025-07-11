@@ -1,11 +1,37 @@
 /* nav style section */
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.raleway-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body{
     background-color: #f5f8ff;
 }
 header{
-
+    background-image: url('/Assets/Hero-bg.png');
+    min-height: 500px;
+    padding-bottom: 100px;
 }
-.nav-section{
+.div-header{
+    text-align: center;
+}
+
+.nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,4 +47,272 @@ nav ul li{
     color: #4e47ff;
     margin: 0%;
 }
-.sign-up
+.sign-up{
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4e47ff;
+    border-color: none;
+    color: aliceblue;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: 600px;
+    cursor: pointer;
+    
+}
+.sign-up:hover{
+    background-color: #040404;
+}
+.div-section{
+    text-align: center;
+}
+.cool-dark{
+    font-size: 65px;
+    color: black;
+    padding: 30px 290px 30px;
+}
+/* Second section start from here */
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 110px;
+    align-items: center;
+}
+
+.action-h2 {
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 0%;
+    margin-bottom: -10px;
+}
+
+.action-p {
+    font-size: 24px;
+    font-weight: lighter;
+    padding-right: 250px;
+    color: #25243288;
+}
+
+.action-img {
+    border-radius: 48px;
+}
+
+
+/* Joined Users sec start from here */
+
+.joined-users {
+    padding: 50px 80px;
+    align-items: center;
+    text-align: center;
+    
+    margin-bottom: 70px;
+}
+
+.joined-users-div {
+    background-color: #4d47ff14;
+    padding: 50px;
+    border-radius: 24px;
+}
+
+.joined-users-h2 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.joined-user-p {
+    padding-bottom: 20px;
+}
+
+.main-users-number {
+    justify-content: center;
+    display: flex;
+    gap: 167px;
+}
+
+.user-numbers-h3 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: -37px; 
+    color: #4E47FF;
+}
+
+.user-numbers-h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000082;
+}
+
+/* Review section start from here */
+
+.review-section {
+    padding: 0px 80px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.review-h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+.all-review {
+    display: flex;
+    gap: 20px;
+}
+
+.review-box {
+    padding: 24px;
+    border-radius: 14px;
+    background-color: #ffffffa5;
+    border-style: solid;
+    border-color: #F2EDED;
+    border-width: 2px;
+}
+
+.review-h4 {
+    font-size: 25px;
+    color: #040404;
+    font-weight: 700;
+    margin: 0%;
+    padding-top: 15px
+}
+
+.review-p {
+    font-size: 18px;
+    color: #0000009f;
+    font-weight: 400;
+    margin: 0%;
+    padding-top: 15px;
+    padding-right: 50px;
+
+}
+
+.review-avatar-sec {
+    padding-top: 15px;
+    display: flex;
+    gap: 12px;
+    margin: 0%;
+    align-items: flex-start;
+}
+
+.avatar-img {
+    border-radius: 999px;
+    width: 40px;
+    height: 40px;
+}
+
+.avatar-name {
+    margin: 0%;
+    padding: 0%;
+}
+
+.avatar-h5 {
+    margin: 0%;
+    font-size: 15px;
+    color: #757575;
+    font-weight: 700;
+}
+
+.avatar-p {
+    margin: 0%;
+    padding-top: 4px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #a7a7a7;
+}
+
+/* ready to focus section start from here */
+
+.focus-section {
+    padding: 50px 80px;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+}
+
+.focus-div {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 71px 150px;
+    
+
+}
+
+.focus-img {
+    padding-top: 0px;
+    margin-top: 40px;
+    border-radius: 35px;
+}
+
+/* form section start from here */
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 0px 180px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.form-title {
+    font-size: 97px;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+
+.form-column input[Type="text"], .form-column input[Type="email"] {
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.form-column textarea {
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+
+.sign-up1 {
+    padding: 12px 170px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    border-color: none;
+    color: aliceblue;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.sign-up1:hover {
+    background: #040404;
+}
+
+.button1 {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+
